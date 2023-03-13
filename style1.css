@@ -80,6 +80,25 @@ button {
 }
 
 /* Banner */
+main {
+    position: absolute;
+    width: 1440px;
+    height: 924px;
+    left: 0px;
+    top: 100px;
+}
+
 .banner-wrap {
     padding: 150px 0 558px;
+    
+}
+
+.hero {
+    position: absolute;
+    width: 549px;
+    height: 973.94px;
+    left: 774px;
+    top: 50px;
+    background: url(img/5353e3dd170fcdb5ab28645088ace5c1.png) no-repeat;
+    background-size: cover;
 }
