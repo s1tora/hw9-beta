@@ -1,0 +1,124 @@
+body {
+    background: linear-gradient(330.22deg, rgba(221, 231, 247, 0) 25.58%, #DCE7F7 53.4%, #E8EEF6 78.25%);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li:first-child {
+    margin-left: 0;
+  }
+  
+  nav ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search input[type="text"] {
+    border: none;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  .search button {
+    border: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 0 5px 5px 0;
+  }
+  
+  .search button i {
+    font-size: 16px;
+  }
+  
+  .main-section {
+    position: relative;
+    width: 100%;
+    height: 600px; /* высота основной части страницы */
+
+  }
+  
+  .main-text {
+    position: absolute;
+    top: 250px; /* отступ сверху */
+    left: 161px; /* отступ слева */
+    width: 891px;
+    height: 338px;
+  }
+  
+  .main-text h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #094B72;
+  }
+  
+  .main-text p {
+    position: absolute;
+    top: 512px; /* отступ сверху */
+    left: 168px; /* отступ слева */
+    width: 590px;
+    height: 76px;
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 158%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.5px;
+    color: #4F4F4F;
+  }
+  
+  .get-started-button {
+    position: absolute;
+    width: 190px;
+    height: 80px;
+    left: 165px;
+    top: 630px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #094B72;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
